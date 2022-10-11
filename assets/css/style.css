@@ -1,0 +1,38 @@
+.headerfluidcont{background-color: #f6f2ec;}
+body{font-family: 'Poppins';}
+
+.swiper-slide a{text-decoration: none;}
+
+.header ul li{display: inline-block;list-style-type: none;margin: 0 25px;font-family: poppins;font-weight: 500;text-transform: uppercase;font-size: 16px;}
+.header ul li a{text-decoration: none;color: #000;}
+.header ul{padding-left: 0;margin-bottom: 0;}
+.headerleft{display: flex;justify-content: flex-end;align-items: center;height: 100%;}
+.headerright{display: flex;justify-content: flex-start;align-items: center;height: 100%;}
+.headermid{display: flex;justify-content: center;}
+.headermid p{font-size: 26px;font-family: poppins;text-align: center;margin-bottom: 0;padding: 20px 0;font-weight: 500;}
+.swiperrightdiv img{height: 300px;}
+.swiperrightdiv{display: flex;justify-content: center;}
+.youtubethumbdiv img{width: 100%;border-radius: 10px 10px 0 0;}
+.headercont{border-bottom: 2px solid #b3b3b3;margin-bottom: 20px;}
+.topbannerdiv img{width: 100%;border-radius: 10px;}
+.bannertextoverlay{background-color: #f6f2ec;position: absolute;left: 50px;top: 50px;width: 38%;padding: 10px;border-radius: 10px;}
+
+/* slider */
+
+
+.topsliderdivfluidcont{background-color: #f6f2ec;padding-bottom: 25px;}
+.toppagination .swiper-pagination-bullet{background-color: #ea735c;width: 15px;height: 15px;}
+.aboutleftdiv img{width: 100%;}
+.sectionheads{margin-bottom: 30px;font-size: 30px;margin-top: 30px;font-family: poppins;text-transform: uppercase;}
+.aboutleftdiv p{margin-bottom: 7px;font-size: 20px;font-family: poppins;}
+.aboutleftdiv p span{font-weight: 600;}
+
+.footer{background-color: #f6f2ec;padding: 20px 0;margin-top: 80px;}
+.footersocialdiv{display: flex;justify-content: center;align-items: center;width: 100%;}
+.footer a img{height: 50px;margin: 0 10px;}
+.footer p{text-align: center;margin-bottom: 0;margin-top: 15px;font-size: 18px;font-weight: 500;}
+
+.youtubethumbdivinner{background-color: #f6f2ec;padding: 10px;border-radius: 0px 0px 10px 10px;}
+.youtubep1{font-size: 18px;font-weight: 500;margin-bottom: 0;color: #000;}
+.youtubep2{font-size: 16px;font-weight: 400;margin-bottom: 0;margin-top: 4px;color: #000;}
+.youtubethumbdiv{box-shadow: 0 0 9px rgb(2 16 48 / 15%);}
