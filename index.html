@@ -20,7 +20,7 @@
                 <div class="header">
                     <div class="container headercont">
                         <div class="row">
-                            <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="headerleft">
                                     <ul>
                                         <li><a href="#homesection"> Home</a></li>
@@ -28,14 +28,27 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="headermid">
                                     <p>Chaitanya <br> Krishna</p>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-md-4 col-sm-4">
+                            <div class="col-lg-4 col-md-4 col-sm-12">
                                 <div class="headerright">
                                     <ul>
+                                        <li><a href="#videossection">Videos</a></li>
+                                        <li><a href="#homesection">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
+                                <div class="headermob">
+                                    <ul>
+                                        <li><a href="#homesection"> Home</a></li>
+                                        <li><a href="#aboutsection">About</a></li>
                                         <li><a href="#videossection">Videos</a></li>
                                         <li><a href="#homesection">Contact Us</a></li>
                                     </ul>
@@ -309,6 +322,24 @@
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          "@0.00": {
+            slidesPerView: 1.2,
+            spaceBetween: 10,
+          },
+          "@0.75": {
+            slidesPerView: 3.2,
+            spaceBetween: 10,
+          },
+          "@1.00": {
+            slidesPerView: 4.2,
+            spaceBetween: 10,
+          },
+          "@1.50": {
+            slidesPerView: 4.1,
+            spaceBetween: 10,
+          },
         },
         });
     </script>
