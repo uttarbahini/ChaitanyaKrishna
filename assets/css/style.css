@@ -36,3 +36,15 @@ body{font-family: 'Poppins';}
 .youtubep1{font-size: 18px;font-weight: 500;margin-bottom: 0;color: #000;}
 .youtubep2{font-size: 16px;font-weight: 400;margin-bottom: 0;margin-top: 4px;color: #000;}
 .youtubethumbdiv{box-shadow: 0 0 9px rgb(2 16 48 / 15%);}
+.headermob{display: none;}
+
+@media only screen and (max-width: 600px) {
+    .bannertextoverlay{position: initial;width: 100%;}
+    .aboutleftdiv img{height: 350px;width: auto;}
+    .aboutleftdiv{display: flex;justify-content: center;flex-direction: column;align-items: center;}
+    .headermob ul{padding-left: 0;}
+    .header ul li{margin: 0 5px;}
+    .headermob{display: flex;justify-content: center;margin-bottom: 10px;}
+    .headerleft{display: none;}
+    .headerright{display: none;}
+  }
